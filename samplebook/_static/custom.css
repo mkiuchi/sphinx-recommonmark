@@ -1,0 +1,52 @@
+/* -- admonitions ----------------------------------------------------------- */
+
+div.note {
+    background: #b8f9c2;
+    border-color: #83c68d;
+}
+
+div.note p.admonition-title{
+    background: url(note.png) no-repeat;
+    vertical-align: middle;
+    padding-left: 75px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+div.note p.last {
+    padding: 10px;
+}
+
+div.important {
+    background: #f7eec5;
+    border-color: #cec184;
+}
+
+div.important p.admonition-title{
+    background: url(important.png) no-repeat;
+    vertical-align: middle;
+    padding-left: 75px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+div.important p.last {
+    padding: 10px;
+}
+
+div.warning {
+    background: #ffe0e0;
+    border-color: #cc9f9f;
+}
+
+div.warning p.admonition-title{
+    background: url(warning.png) no-repeat;
+    vertical-align: middle;
+    padding-left: 75px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+div.warning p.last {
+    padding: 10px;
+}
